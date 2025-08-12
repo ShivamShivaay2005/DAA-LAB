@@ -1,6 +1,6 @@
 # Data Structures and Algorithms Lab
 
-This repository contains implementations of various data structures and algorithms as part of a lab curriculum. Each experiment focuses on a specific algorithm or data structure, including its implementation and time complexity analysis.
+This repository contains implementations of various data structures and algorithms in C++ as part of a lab curriculum. Each experiment focuses on a specific algorithm or data structure, including its implementation and time complexity analysis.
 
 ---
 
@@ -47,36 +47,36 @@ This repository contains implementations of various data structures and algorith
 Implementation of various sorting algorithms using an array as the data structure, along with an analysis of their time complexity.
 
 ### 1a. Insertion Sort
-* **Implementation:** `path/to/insertion_sort.c`
+* **Implementation:** `path/to/insertion_sort.cpp`
 * **Time Complexity:**
     * Best Case: O(n)
     * Average Case: O(n^2)
     * Worst Case: O(n^2)
 
 ### 1b. Selection Sort
-* **Implementation:** `path/to/selection_sort.c`
+* **Implementation:** `path/to/selection_sort.cpp`
 * **Time Complexity:** O(n^2) for all cases.
 
 ### 1c. Bubble Sort
-* **Implementation:** `path/to/bubble_sort.c`
+* **Implementation:** `path/to/bubble_sort.cpp`
 * **Time Complexity:**
     * Best Case: O(n)
     * Average Case: O(n^2)
     * Worst Case: O(n^2)
 
 ### 1d. Quick Sort
-* **Implementation:** `path/to/quick_sort.c`
+* **Implementation:** `path/to/quick_sort.cpp`
 * **Time Complexity:**
     * Best Case: O(n log n)
     * Average Case: O(n log n)
     * Worst Case: O(n^2)
 
 ### 1e. Merge Sort
-* **Implementation:** `path/to/merge_sort.c`
+* **Implementation:** `path/to/merge_sort.cpp`
 * **Time Complexity:** O(n log n) for all cases.
 
 ### 1f. Heap Sort
-* **Implementation:** `path/to/heap_sort.c`
+* **Implementation:** `path/to/heap_sort.cpp`
 * **Time Complexity:** O(n log n) for all cases.
 
 ---
@@ -86,59 +86,59 @@ Implementation of various sorting algorithms using an array as the data structur
 Implementation of linear and binary search and analysis of their time complexities.
 
 ### 2a. Linear Search
-* **Implementation:** `path/to/linear_search.c`
+* **Implementation:** `path/to/linear_search.cpp`
 * **Time Complexity:** O(n)
 
 ### 2b. Binary Search
-* **Implementation:** `path/to/binary_search.c`
+* **Implementation:** `path/to/binary_search.cpp`
 * **Time Complexity:** O(log n)
 
 ---
 
 ## 3. Strassen's Matrix Multiplication
-* **Implementation:** `path/to/strassen.c`
+* **Implementation:** `path/to/strassen.cpp`
 * **Description:** An efficient algorithm for matrix multiplication that is faster than the standard O(n^3) algorithm.
 * **Time Complexity:** O(n^log2(7)) ≈ O(n^2.81)
 
 ---
 
 ## 4. Binomial Coefficient Computation
-* **Implementation:** `path/to/binomial_coefficient.c`
+* **Implementation:** `path/to/binomial_coefficient.cpp`
 * **Description:** A program to compute C(n, k) using dynamic programming.
 * **Time Complexity:** O(n*k)
 
 ---
 
 ## 5. Prim's Algorithm
-* **Implementation:** `path/to/prims.c`
+* **Implementation:** `path/to/prims.cpp`
 * **Description:** A greedy algorithm to find the Minimum Spanning Tree (MST) for a weighted undirected graph.
 * **Time Complexity:** O(E log V) using a binary heap.
 
 ---
 
 ## 6. Dijkstra's Algorithm
-* **Implementation:** `path/to/dijkstra.c`
+* **Implementation:** `path/to/dijkstra.cpp`
 * **Description:** An algorithm for finding the shortest paths between nodes in a graph, which may represent, for example, road networks.
 * **Time Complexity:** O(E log V) using a priority queue.
 
 ---
 
 ## 7. Bellman-Ford Algorithm
-* **Implementation:** `path/to/bellman_ford.c`
+* **Implementation:** `path/to/bellman_ford.cpp`
 * **Description:** An algorithm that computes shortest paths from a single source vertex to all of the other vertices in a weighted digraph. It is slower than Dijkstra's but more versatile, as it is capable of handling graphs in which some of the edge weights are negative numbers.
 * **Time Complexity:** O(V*E)
 
 ---
 
 ## 8. DFS and BFS
-* **Implementation:** `path/to/graph_traversal.c`
+* **Implementation:** `path/to/graph_traversal.cpp`
 * **Description:** Implementation of Depth First Search and Breadth First Search graph traversal algorithms.
 * **Time Complexity:** O(V + E) for both algorithms.
 
 ---
 
 ## 9. Bucket Sort
-* **Implementation:** `path/to/bucket_sort.c`
+* **Implementation:** `path/to/bucket_sort.cpp`
 * **Description:** A distribution sort algorithm that works by distributing the elements of an array into a number of buckets.
 * **Time Complexity:**
     * Best Case: O(n + k)
@@ -148,47 +148,43 @@ Implementation of linear and binary search and analysis of their time complexiti
 ---
 
 ## 10. Topological Sort
-* **Implementation:** `path/to/topological_sort.c`
+* **Implementation:** `path/to/topological_sort.cpp`
 * **Description:** A linear ordering of vertices such that for every directed edge from vertex u to vertex v, u comes before v in the ordering.
 * **Time Complexity:** O(V + E)
 
 ---
 
 ## 11. Approximate Vertex Cover
-* **Implementation:** `path/to/vertex_cover.c`
+* **Implementation:** `path/to/vertex_cover.cpp`
 * **Description:** An algorithm to find an approximate solution for the NP-hard vertex cover problem. This implementation compares the approximate solution with a brute-force solution on small graph instances.
 
 ---
 
 ## 12. City Distances Simulation
-* **Implementation:** `path/to/city_distances.c`
+* **Implementation:** `path/to/city_distances.cpp`
 * **Description:** A simulation to find routes between cities using a heuristic approach and comparing the results to the optimal solution on small datasets.
 
 ---
 
 ## 13. Integer Implementation and Error Probability
-* **Implementation:** `path/to/integer_test.c`
+* **Implementation:** `path/to/integer_test.cpp`
 * **Description:** Implementation and testing of operations on various integer types, calculating the probability of error.
 
 ---
 
 ## 14. Large Dataset Sorting and Visualization
-* **Implementation:** `path/to/large_sort_visualizer.c`
+* **Implementation:** `path/to/large_sort_visualizer.cpp`
 * **Description:** A program to sort large datasets and visualize the execution time over multiple runs to analyze performance.
 
 ---
 
 ## 15. Large Matrix Multiplication Speedup
-* **Implementation:** `path/to/large_matrix_multiply.c`
+* **Implementation:** `path/to/large_matrix_multiply.cpp`
 * **Description:** A program to multiply two large matrices and analyze the speedup gained compared to a standard serial implementation.
 
 ---
 
 ### How to Compile and Run
-To compile a C program (e.g., `insertion_sort.c`):
+To compile a C++ program (e.g., `insertion_sort.cpp`):
 ```bash
-gcc insertion_sort.c -o insertion_sort
-
-To run the compiled program:
-
-./insertion_sort
+g++ insertion_sort.cpp -o insertion_sort
